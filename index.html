@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="UnityERP — Solusi pembuatan sistem ERP dan website profesional untuk bisnis Anda. Dari website sederhana hingga sistem enterprise yang kompleks.">
+  <title>UnityERP — Solusi ERP & Web Development</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+
+<body>
+
+  <!-- ═══════════ NAVBAR ═══════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <div class="logo-icon">U</div>
+        <span>UnityERP</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#tentang">Tentang</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#portofolio">Portofolio</a>
+        <a href="#teknologi">Teknologi</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#kontak" class="nav-cta">Hubungi Kami</a>
+      </div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+    </div>
+    <div class="hero-grid"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <div class="pulse"></div>
+          Tersedia untuk project baru
+        </div>
+
+        <h1 class="hero-title">
+          Bangun Sistem <span class="gradient-text">ERP</span> &amp;
+          <span class="gradient-text">Website</span> Impian Anda
+        </h1>
+
+        <p class="hero-description">
+          Kami menghadirkan solusi digital kelas enterprise — mulai dari sistem ERP terintegrasi
+          hingga website modern yang mendorong pertumbuhan bisnis Anda.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#kontak" class="btn-primary">
+            Mulai Project ⟶
+          </a>
+          <a href="#layanan" class="btn-secondary">
+            Lihat Layanan
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="stat-number" data-target="50">0</div>
+            <div class="stat-label">Project Selesai</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number" data-target="35">0</div>
+            <div class="stat-label">Klien Puas</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number" data-target="5">0</div>
+            <div class="stat-label">Tahun Pengalaman</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-illustration">
+          <!-- Floating Cards -->
+          <div class="floating-card card-1">
+            <div class="card-icon purple"><i class="ph-bold ph-chart-bar"></i></div>
+            <h4>Dashboard ERP</h4>
+            <p>Real-time analytics</p>
+            <div class="mini-chart">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+          </div>
+
+          <div class="floating-card card-2">
+            <div class="card-icon blue"><i class="ph-bold ph-globe-hemisphere-west"></i></div>
+            <h4>Web Modern</h4>
+            <p>Responsive & cepat</p>
+            <div style="margin-top:10px; display:flex; gap:4px;">
+              <div style="flex:1; height:6px; background:var(--gradient-main); border-radius:3px;"></div>
+              <div style="flex:0.7; height:6px; background:rgba(255,255,255,0.1); border-radius:3px;"></div>
+            </div>
+          </div>
+
+          <div class="floating-card card-3">
+            <div class="card-icon cyan"><i class="ph-bold ph-lightning"></i></div>
+            <h4>Performa Tinggi</h4>
+            <p>Uptime 99.9%</p>
+            <div
+              style="margin-top:10px; font-size:1.5rem; font-weight:800; background:var(--gradient-main); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;">
+              99.9%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ ABOUT ═══════════ -->
+  <section class="about" id="tentang">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">Tentang Kami</div>
+        <h2 class="section-title">Mengapa Memilih UnityERP?</h2>
+        <p class="section-subtitle">
+          Kami adalah tim profesional yang berdedikasi dalam menciptakan solusi digital terbaik
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-image-wrapper">
+            <img src="images/tentang-kami.jpg" alt="Tim profesional sedang bekerja di kantor" class="about-graphic"
+              style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+        </div>
+
+        <div class="about-content reveal-right">
+          <h3>Solusi Digital End-to-End untuk Bisnis Anda</h3>
+          <p>
+            UnityERP hadir dengan misi menjembatani kebutuhan digitalisasi bisnis di Indonesia.
+            Dengan pengalaman bertahun-tahun di industri teknologi, kami telah dipercaya oleh
+            berbagai perusahaan dalam membangun sistem ERP yang terintegrasi dan website yang profesional.
+          </p>
+          <p>
+            Kami percaya bahwa setiap bisnis, baik kecil maupun besar, layak mendapatkan
+            solusi teknologi berkualitas tinggi dengan harga yang terjangkau.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <span class="feature-icon"><i class="ph-fill ph-check-circle"></i></span>
+              Tim Berpengalaman
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon"><i class="ph-fill ph-shield-check"></i></span>
+              Keamanan Terjamin
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon"><i class="ph-fill ph-lightning"></i></span>
+              Pengerjaan Cepat
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon"><i class="ph-fill ph-wrench"></i></span>
+              Support 24/7
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon"><i class="ph-fill ph-device-mobile"></i></span>
+              Responsive Design
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon"><i class="ph-fill ph-lightbulb"></i></span>
+              Konsultasi Gratis
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ SERVICES ═══════════ -->
+  <section class="services" id="layanan">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">Layanan Kami</div>
+        <h2 class="section-title">Layanan yang Kami Tawarkan</h2>
+        <p class="section-subtitle">
+          Solusi lengkap untuk kebutuhan digital bisnis Anda
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card reveal delay-1">
+          <div class="service-icon purple">
+            <img src="images/erp-dashboard.png" alt="Sistem ERP Icon" style="width: 100%; border-radius: 8px;">
+          </div>
+          <h3>Sistem ERP</h3>
+          <p>
+            Sistem ERP terintegrasi untuk mengelola seluruh proses bisnis Anda — dari
+            keuangan, inventaris, HR, hingga supply chain dalam satu platform.
+          </p>
+          <ul class="service-features">
+            <li><span class="check">✓</span> Modul Keuangan & Akuntansi</li>
+            <li><span class="check">✓</span> Manajemen Inventaris</li>
+            <li><span class="check">✓</span> HRM & Payroll</li>
+            <li><span class="check">✓</span> Supply Chain Management</li>
+            <li><span class="check">✓</span> Laporan & Dashboard Real-Time</li>
+          </ul>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card reveal delay-2">
+          <div class="service-icon blue">
+            <img src="images/web-development.png" alt="Website Sederhana Icon" style="width: 100%; border-radius: 8px;">
+          </div>
+          <h3>Website Sederhana</h3>
+          <p>
+            Website profesional untuk UMKM dan personal branding. Desain modern,
+            responsif, dan SEO-friendly dengan harga terjangkau.
+          </p>
+          <ul class="service-features">
+            <li><span class="check">✓</span> Landing Page</li>
+            <li><span class="check">✓</span> Company Profile</li>
+            <li><span class="check">✓</span> Blog & Portfolio</li>
+            <li><span class="check">✓</span> Responsive Design</li>
+            <li><span class="check">✓</span> SEO Optimization</li>
+          </ul>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card reveal delay-3">
+          <div class="service-icon cyan">
+            <img src="images/enterprise-web.png" alt="Website Profesional Icon"
+              style="width: 100%; border-radius: 8px;">
+          </div>
+          <h3>Website Profesional</h3>
+          <p>
+            Platform web berskala besar dengan fitur lengkap — e-commerce,
+            dashboard admin, integrasi API, dan kemampuan skalabilitas tinggi.
+          </p>
+          <ul class="service-features">
+            <li><span class="check">✓</span> E-Commerce Platform</li>
+            <li><span class="check">✓</span> Custom CMS</li>
+            <li><span class="check">✓</span> Payment Gateway</li>
+            <li><span class="check">✓</span> Multi-User System</li>
+            <li><span class="check">✓</span> API Integration</li>
+          </ul>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card reveal delay-4">
+          <div class="service-icon pink">
+            <img src="images/custom-dev.png" alt="Custom Development Icon" style="width: 100%; border-radius: 8px;">
+          </div>
+          <h3>Custom Development</h3>
+          <p>
+            Pengembangan software khusus sesuai kebutuhan unik bisnis Anda.
+            Dari aplikasi web, mobile app, hingga sistem automation.
+          </p>
+          <ul class="service-features">
+            <li><span class="check">✓</span> Web Application</li>
+            <li><span class="check">✓</span> Mobile Application</li>
+            <li><span class="check">✓</span> Automation System</li>
+            <li><span class="check">✓</span> Data Analytics</li>
+            <li><span class="check">✓</span> Cloud Infrastructure</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PORTFOLIO ═══════════ -->
+  <section class="portfolio" id="portofolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">Portofolio</div>
+        <h2 class="section-title">Project Terbaru Kami</h2>
+        <p class="section-subtitle">
+          Beberapa karya terbaik yang telah kami selesaikan
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Port 1 -->
+        <div class="portfolio-card reveal delay-1">
+          <div class="portfolio-thumbnail">
+            <div class="thumb-bg bg-1"></div>
+            <img src="images/hr-ga-portfolio.png" alt="HR-GA Agreement System"
+              style="width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0;">
+            <div class="portfolio-overlay"><span
+                onclick="window.open('https://github.com/Rhckjf/HR-GA-Agreement-System-Website', '_blank')">Lihat di
+                GitHub</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h3>HR-GA Agreement System</h3>
+            <p>Sistem manajemen persetujuan HR/GA berbasis web</p>
+            <div class="portfolio-tags">
+              <span>Web App</span><span>System</span><span>Management</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Port 2 -->
+        <div class="portfolio-card reveal delay-2">
+          <div class="portfolio-thumbnail">
+            <div class="thumb-bg bg-2"></div>
+            <img src="images/water-management-portfolio.png" alt="Water Management System"
+              style="width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0;">
+            <div class="portfolio-overlay"><span
+                onclick="window.open('https://github.com/Rhckjf/Water-Management-System', '_blank')">Lihat di
+                GitHub</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Water Management System</h3>
+            <p>Aplikasi web untuk manajemen air dan pemantauan</p>
+            <div class="portfolio-tags">
+              <span>Web App</span><span>Management</span><span>Monitoring</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Port 3 -->
+        <div class="portfolio-card reveal delay-3">
+          <div class="portfolio-thumbnail">
+            <div class="thumb-bg bg-3"></div>
+            <img src="images/cybersecurity-portfolio.png" alt="Cybersecurity Risk System"
+              style="width: 100%; height: 100%; object-fit: cover; position: absolute; inset: 0;">
+            <div class="portfolio-overlay"><span
+                onclick="window.open('https://github.com/Rhckjf/-Cybersecurity-Risk-Assessment', '_blank')">Lihat di
+                GitHub</span></div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Cybersecurity Risk System</h3>
+            <p>Mini project sistem penilaian risiko keamanan siber berbasis Flask (Python)</p>
+            <div class="portfolio-tags">
+              <span>Python</span><span>Flask</span><span>Security</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ TECH STACK ═══════════ -->
+  <section class="tech" id="teknologi">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">Teknologi</div>
+        <h2 class="section-title">Teknologi yang Kami Gunakan</h2>
+        <p class="section-subtitle">
+          Stack teknologi modern untuk hasil terbaik
+        </p>
+      </div>
+    </div>
+
+    <div class="tech-marquee">
+      <div class="tech-track" id="techTrack">
+        <div class="tech-item"><i class="devicon-react-original colored tech-icon"></i><span>React</span></div>
+        <div class="tech-item"><i class="devicon-nodejs-plain colored tech-icon"></i><span>Node.js</span></div>
+        <div class="tech-item"><i class="devicon-python-plain colored tech-icon"></i><span>Python</span></div>
+        <div class="tech-item"><i class="devicon-postgresql-plain colored tech-icon"></i><span>PostgreSQL</span></div>
+        <div class="tech-item"><i class="devicon-mongodb-plain colored tech-icon"></i><span>MongoDB</span></div>
+        <div class="tech-item"><i class="devicon-angularjs-plain colored tech-icon"></i><span>Angular</span></div>
+        <div class="tech-item"><i class="devicon-vuejs-plain colored tech-icon"></i><span>Vue.js</span></div>
+        <div class="tech-item"><i class="devicon-docker-plain colored tech-icon"></i><span>Docker</span></div>
+        <div class="tech-item"><i class="devicon-amazonwebservices-original colored tech-icon"></i><span>AWS</span>
+        </div>
+        <div class="tech-item"><i class="devicon-firebase-plain colored tech-icon"></i><span>Firebase</span></div>
+        <div class="tech-item"><i class="devicon-flutter-plain colored tech-icon"></i><span>Flutter</span></div>
+        <div class="tech-item"><i class="devicon-nextjs-plain tech-icon" style="color: white;"></i><span>Next.js</span>
+        </div>
+        <!-- Duplicated for seamless loop -->
+        <div class="tech-item"><i class="devicon-react-original colored tech-icon"></i><span>React</span></div>
+        <div class="tech-item"><i class="devicon-nodejs-plain colored tech-icon"></i><span>Node.js</span></div>
+        <div class="tech-item"><i class="devicon-python-plain colored tech-icon"></i><span>Python</span></div>
+        <div class="tech-item"><i class="devicon-postgresql-plain colored tech-icon"></i><span>PostgreSQL</span></div>
+        <div class="tech-item"><i class="devicon-mongodb-plain colored tech-icon"></i><span>MongoDB</span></div>
+        <div class="tech-item"><i class="devicon-angularjs-plain colored tech-icon"></i><span>Angular</span></div>
+        <div class="tech-item"><i class="devicon-vuejs-plain colored tech-icon"></i><span>Vue.js</span></div>
+        <div class="tech-item"><i class="devicon-docker-plain colored tech-icon"></i><span>Docker</span></div>
+        <div class="tech-item"><i class="devicon-amazonwebservices-original colored tech-icon"></i><span>AWS</span>
+        </div>
+        <div class="tech-item"><i class="devicon-firebase-plain colored tech-icon"></i><span>Firebase</span></div>
+        <div class="tech-item"><i class="devicon-flutter-plain colored tech-icon"></i><span>Flutter</span></div>
+        <div class="tech-item"><i class="devicon-nextjs-plain tech-icon" style="color: white;"></i><span>Next.js</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ TESTIMONIALS ═══════════ -->
+  <section class="testimonials" id="testimoni">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">Testimoni</div>
+        <h2 class="section-title">Apa Kata Klien Kami</h2>
+        <p class="section-subtitle">
+          Kepuasan klien adalah prioritas utama kami
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testi 1 -->
+        <div class="testimonial-card reveal delay-1">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">
+            "Sistem ERP yang dibangun oleh UnityERP sangat membantu operasional perusahaan kami.
+            Prosesnya cepat dan hasilnya luar biasa."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar av-1">A</div>
+            <div>
+              <div class="testimonial-name">Ahmad Hidayat</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testi 2 -->
+        <div class="testimonial-card reveal delay-2">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">
+            "Website e-commerce kami meningkat 300% dalam penjualan setelah dikembangkan
+            oleh tim UnityERP. Sangat recommended!"
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar av-2">S</div>
+            <div>
+              <div class="testimonial-name">Sari Dewi</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testi 3 -->
+        <div class="testimonial-card reveal delay-3">
+          <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">
+            "Profesional, komunikatif, dan hasilnya memuaskan. Tim UnityERP benar-benar
+            memahami kebutuhan bisnis kami."
+          </p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar av-3">R</div>
+            <div>
+              <div class="testimonial-name">Rizky Pratama</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CTA ═══════════ -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-box reveal-scale">
+        <h2>Siap Memulai Project Anda?</h2>
+        <p>Konsultasikan kebutuhan digital bisnis Anda secara gratis bersama tim kami.</p>
+        <a href="#kontak" class="btn-primary" style="display:inline-flex;">
+          Konsultasi Gratis ⟶
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ CONTACT ═══════════ -->
+  <section class="contact" id="kontak">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">Kontak</div>
+        <h2 class="section-title">Hubungi Kami</h2>
+        <p class="section-subtitle">
+          Kami siap membantu mewujudkan solusi digital terbaik untuk bisnis Anda
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <h3>Mari Berkolaborasi</h3>
+          <p>
+            Hubungi kami untuk konsultasi gratis. Tim kami akan membantu Anda
+            menemukan solusi terbaik sesuai kebutuhan dan budget.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ph-fill ph-envelope-simple"></i></div>
+              <div>
+                <div class="contact-label">Email</div>
+                <div class="contact-value">unityerp61@gmail.com</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ph-fill ph-whatsapp-logo"></i></div>
+              <div>
+                <div class="contact-label">WhatsApp</div>
+                <div class="contact-value">+62 812 3456 7890</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="ph-fill ph-map-pin"></i></div>
+              <div>
+                <div class="contact-label">Lokasi</div>
+                <div class="contact-value">Jakarta, Indonesia</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="ph-fill ph-instagram-logo"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="ph-fill ph-linkedin-logo"></i></a>
+            <a href="#" class="social-link" aria-label="GitHub"><i class="ph-fill ph-github-logo"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="ph-fill ph-twitter-logo"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form reveal-right">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="email@contoh.com" required>
+            </div>
+            <div class="form-group">
+              <label for="service">Layanan yang Diinginkan</label>
+              <select id="service" required>
+                <option value="" disabled selected>Pilih layanan</option>
+                <option value="erp">Sistem ERP</option>
+                <option value="simple-web">Website Sederhana</option>
+                <option value="pro-web">Website Profesional</option>
+                <option value="custom">Custom Development</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" placeholder="Ceritakan kebutuhan project Anda..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              Kirim Pesan ⟶
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <div class="logo-icon">U</div>
+            <span>UnityERP</span>
+          </a>
+          <p>
+            Solusi digital terpercaya untuk membangun sistem ERP dan website profesional
+            yang mendorong pertumbuhan bisnis Anda.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Layanan</h4>
+          <ul>
+            <li><a href="#layanan">Sistem ERP</a></li>
+            <li><a href="#layanan">Website Sederhana</a></li>
+            <li><a href="#layanan">Website Profesional</a></li>
+            <li><a href="#layanan">Custom Development</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Perusahaan</h4>
+          <ul>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Lainnya</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Karir</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Kebijakan Privasi</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 UnityERP. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
