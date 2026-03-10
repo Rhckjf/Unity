@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials'
 import CTA from './components/CTA'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Chatbot from './components/Chatbot'
 
 export default function App() {
     // Scroll Reveal via IntersectionObserver
@@ -99,6 +100,7 @@ export default function App() {
             <CTA />
             <Contact />
             <Footer />
+            <Chatbot />
         </>
     )
 }
